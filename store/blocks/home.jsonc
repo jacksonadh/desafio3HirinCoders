@@ -1,8 +1,37 @@
 {
   "store.home": {
     "blocks": [
-      "tab-layout#home"
+      "tab-layout#home",
+      "slider-layout#home"
     ]
+  },
+  "slider-layout#home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "image#1",
+      "image#2"
+    ]
+  },
+  "image#1": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf",
+      "maxHeight": 295
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e",
+      "maxHeight": 295
+    }
   },
   "tab-layout#home": {
     "children": [
@@ -10,45 +39,44 @@
       "tab-content#home"
     ],
     "props": {
-      "blockClass": "home",
-      "defaultActiveTabId": "home1"
+      "blockClass": "home"
     }
   },
   "tab-list#home": {
     "children": [
-      "tab-list.item#home1",
-      "tab-list.item#home2"
+      "tab-list.item#promocao",
+      "tab-list.item#corinthians"
     ]
   },
-  "tab-list.item#home1": {
+  "tab-list.item#promocao": {
     "props": {
-      "tabId": "home1",
-      "label": "Home 1",
+      "tabId": "promocao",
+      "label": "PROMOÇÃO",
       "defaultActiveTab": true
     }
   },
-  "tab-list.item#home2": {
+  "tab-list.item#corinthians": {
     "props": {
-      "tabId": "home2",
-      "label": "Home 2"
+      "tabId": "corinthians",
+      "label": "CORINTHIANS"
     }
   },
   "tab-content#home": {
     "children": [
-      "tab-content.item#home1",
-      "tab-content.item#home2"
+      "tab-content.item#promocao",
+      "tab-content.item#corinthians"
     ]
   },
-  "tab-content.item#home1": {
+  "tab-content.item#promocao": {
     "children": [],
     "props": {
-      "tabId": "home1"
+      "tabId": "promocao"
     }
   },
-  "tab-content.item#home2": {
+  "tab-content.item#corinthians": {
     "children": [],
     "props": {
-      "tabId": "home2"
+      "tabId": "corinthians"
     }
   }
 }

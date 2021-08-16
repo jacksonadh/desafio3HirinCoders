@@ -1,0 +1,12 @@
+.sliderLayoutContainer {
+  background:#303030;
+}
+
+.imageElement {
+  position: fixed;
+}
+
+.caretIcon--carousel {
+  position: relative;
+  margin: auto;
+}

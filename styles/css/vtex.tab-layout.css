@@ -4,6 +4,10 @@
 }
 
 .listItem {
+ border-bottom: #4ED705;
+}
+
+.listItem:active {
   background: #212121;
   color: white;
 }
