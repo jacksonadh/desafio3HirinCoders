@@ -1,13 +1,10 @@
 .listContainer {
   background: #212121;
-  color: white;
+  color: #4ED705;
 }
 
 .listItem {
- border-bottom: #4ED705;
+border:  none;
+
 }
 
-.listItem:active {
-  background: #212121;
-  color: white;
-}

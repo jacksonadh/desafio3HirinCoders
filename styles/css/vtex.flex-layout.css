@@ -1,4 +1,7 @@
 .flexRow {
   background: #212121;
-  color: white;
+}
+
+.flexCol--header{
+  width: 80%;
 }

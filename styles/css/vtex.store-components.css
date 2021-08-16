@@ -1,3 +1,7 @@
-.input {
+.searchBarContainer {
   width: 1000px;
+}
+
+.input {
+  border:  none;
 }
