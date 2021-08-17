@@ -1,8 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "tab-layout#home",
-      "slider-layout#home"
+      "tab-layout#home"
     ]
   },
   "slider-layout#home": {
@@ -36,10 +35,12 @@
   "tab-layout#home": {
     "children": [
       "tab-list#home",
+      "slider-layout#home",
       "tab-content#home"
     ],
     "props": {
-      "blockClass": "home"
+      "blockClass": "home",
+      "defaultActiveTabId": "promocao"
     }
   },
   "tab-list#home": {
@@ -58,7 +59,7 @@
   "tab-list.item#corinthians": {
     "props": {
       "tabId": "corinthians",
-      "label": "CORINTHIANS"
+      "label": "CORINTHINAS"
     }
   },
   "tab-content#home": {
@@ -68,13 +69,17 @@
     ]
   },
   "tab-content.item#promocao": {
-    "children": [],
+    "children": [
+      "shelf"
+    ],
     "props": {
       "tabId": "promocao"
     }
   },
   "tab-content.item#corinthians": {
-    "children": [],
+    "children": [
+      //"shelf"
+    ],
     "props": {
       "tabId": "corinthians"
     }

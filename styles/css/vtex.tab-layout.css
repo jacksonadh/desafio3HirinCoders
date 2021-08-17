@@ -3,8 +3,8 @@
   color: #4ED705;
 }
 
-.listItem {
-border:  none;
-
+.listItemActive :global(.vtex-button){
+  border:  none;
+  border-radius: 0;
+  border-bottom: medium solid #4ED705;
 }
-

@@ -1,7 +1,13 @@
 {
   "store.search": {
     "blocks": [
-      
-    ]
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
   }
 }
