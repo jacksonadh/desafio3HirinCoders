@@ -1,0 +1,54 @@
+{
+  "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "slider-layout#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "promocao"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#promocao",
+      "tab-list.item#corinthians"
+    ]
+  },
+  "tab-list.item#promocao": {
+    "props": {
+      "tabId": "promocao",
+      "label": "PROMOÇÃO",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#corinthians": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "CORINTHINAS"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#promocao",
+      "tab-content.item#corinthians"
+    ]
+  },
+  "tab-content.item#promocao": {
+    "children": [
+      "shelf"
+    ],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+  "tab-content.item#corinthians": {
+    "children": [
+      //"shelf"
+    ],
+    "props": {
+      "tabId": "corinthians"
+    }
+  }
+}

@@ -2,12 +2,12 @@
   background:#303030;
 }
 
-.imageElement {
-  position: fixed;
-}
+.sliderLeftArrow--carousel {
+  left: 27%;
+  color: #4ED705;
+ }
 
-.caretIcon--carousel {
-  position: relative;
-  margin: auto;
+.sliderRightArrow--carousel {
+ right: 27%;
+ color: #4ED705;
 }
-
