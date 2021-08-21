@@ -2,7 +2,16 @@
   background: #212121;
 }
 
-.flexCol--header{
+.flexCol--header {
   width: 80%;
 }
 
+.flexCol--product {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.stretchChildrenWidth {
+  width: auto;
+}

@@ -1,3 +1,13 @@
+.container {
+  background:#424242;
+  flex-basis: 0;
+  max-width: 310px;
+  width: 310px;
+  margin: 3rem;
+}
+.nameContainer {
+	text-align: center;
+}
 .productBrand {
   color: #FFFFFF;
 }

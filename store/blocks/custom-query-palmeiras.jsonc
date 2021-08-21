@@ -1,0 +1,31 @@
+//Custom query para buscar os produtos da promoção (combo)
+{
+  "search-result-layout.customQuery#palmeiras": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "mapField": "ft",
+        "queryField": "Palmeiras",
+        "maxItemsPerPage": 8
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#palmeiras"
+    ]
+  },
+  "search-result-layout.desktop#palmeiras": {
+    "children": [
+      "search-content#palmeiras"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "search-content#palmeiras": {
+    "blocks": [
+      "gallery#custom",
+      "not-found"
+    ]
+  }
+}

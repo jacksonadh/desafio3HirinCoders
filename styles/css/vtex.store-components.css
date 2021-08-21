@@ -7,7 +7,9 @@
 	border-radius: 0;
 	border-bottom: 2px solid #4ED705;
 }
-
+.productBrand {
+	color: #4ED705;
+}
 .listPrice {
   color: #FFFFFF;
 }
@@ -22,4 +24,13 @@
 
 .imageElement {
 	border-radius: 30px;
+}
+
+.priceContainer {
+	text-align: center;
+}
+.buyButton :global(.vtex-button) {
+	border: none;
+	background: #4ED705;
+	color: #FFFFFF;
 }
