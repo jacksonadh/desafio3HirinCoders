@@ -1,0 +1,20 @@
+{
+  "store.custom#cadastro": {
+    "blocks": [
+      "flex-layout.row#cadastro"
+    ]
+  },
+  "flex-layout.row#cadastro": {
+    "children": [
+      "flex-layout.col#cadastro"
+    ]
+  },
+  "flex-layout.col#cadastro": {
+    "children": [
+      "form-lead"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  }
+}

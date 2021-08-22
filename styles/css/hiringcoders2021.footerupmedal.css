@@ -10,3 +10,49 @@
 .linkItem{
   color: #fff;
 }
+
+.form {
+
+  margin: 10px auto;
+  width: 500px;
+ 
+  padding: 1em;
+  border: 1px solid #4ED705;
+  border-radius: 1em;
+}
+
+.formTitle {
+text-align: center;
+color:#4ED705;
+
+}
+
+
+.formLabel {
+  color:#fff;
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  margin-bottom: 15px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.formInput {
+  
+  font: 1em sans-serif;
+
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  border: 1px solid #4ED705;
+}
+
+.formButton {
+      padding: 1rem;
+      width: 30%;
+      background:#303030;
+      color: #4ED705;
+      margin-left: 270px;
+    }
