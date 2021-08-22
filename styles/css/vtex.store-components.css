@@ -26,6 +26,10 @@
 	border-radius: 30px;
 }
 
+.container {
+	margin-top: 10%;
+}
+
 .priceContainer {
 	text-align: center;
 }

@@ -7,6 +7,7 @@
 }
 .nameContainer {
 	text-align: center;
+  justify-content: center;
 }
 .productBrand {
   color: #FFFFFF;
